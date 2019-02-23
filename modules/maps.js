@@ -1,7 +1,7 @@
 MODULES["maps"] = {};
 //These can be changed (in the console) if you know what you're doing:
-MODULES["maps"].enoughDamageCutoff = 4; //above this the game will do maps for map bonus stacks
-MODULES["maps"].farmingCutoff = 16;     //above this the game will farm.
+MODULES["maps"].enoughDamageCutoff = 12; //above this the game will do maps for map bonus stacks
+MODULES["maps"].farmingCutoff = 48;     //above this the game will farm.
 MODULES["maps"].numHitsSurvived = 8;    //survive X hits in D stance or not enough Health.
 MODULES["maps"].LeadfarmingCutoff = 10; //lead has its own farmingCutoff
 MODULES["maps"].NomfarmingCutoff = 10;  //nom has its own farmingCutoff
