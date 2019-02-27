@@ -2,7 +2,7 @@ MODULES["maps"] = {};
 //These can be changed (in the console) if you know what you're doing:
 MODULES["maps"].enoughDamageCutoff = 64; //above this the game will do maps for map bonus stacks
 MODULES["maps"].farmingCutoff = 42;     //above this the game will farm.
-MODULES["maps"].numHitsSurvived = 6;    //survive X hits in D stance or not enough Health.
+MODULES["maps"].numHitsSurvived = 10;    //survive X hits in D stance or not enough Health.
 MODULES["maps"].LeadfarmingCutoff = 10; //lead has its own farmingCutoff
 MODULES["maps"].NomfarmingCutoff = 10;  //nom has its own farmingCutoff
 MODULES["maps"].NurseryMapLevel = 50;   //with blacksmithery, run map for nursery on this level
@@ -19,7 +19,7 @@ MODULES["maps"].MapTier2Sliders = [9,9,9,'Random'];   //Zone 16-47 (old: 9/9/0 R
 MODULES["maps"].MapTier3Sliders = [9,9,9,'Random'];    //Zone 6-16 (old: 9/0/0 Random)
 MODULES["maps"].preferGardens = !getPageSetting('PreferMetal');   //prefer run Garden maps instead of ^^ if we have Decay done
 MODULES["maps"].maxMapBonus = 6;       //cap how many maps are run during Want More Damage mode
-MODULES["maps"].wantHealthMapBonus = 6;//cap how many maps are run during Want More Health mode
+MODULES["maps"].wantHealthMapBonus = 10;//cap how many maps are run during Want More Health mode
 MODULES["maps"].SpireFarm199Maps = true;   //this will farm spire on 199 maps instead of 200 maps when Map Reducer is bought
 MODULES["maps"].watchChallengeMaps = [15, 25, 35, 50];  //during 'watch' challenge, run maps on these levels:
 MODULES["maps"].shouldFarmCell = 59;
